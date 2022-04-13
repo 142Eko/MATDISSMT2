@@ -6,7 +6,7 @@ main(){
 	string b[] = {"210", "018","142"};
 	int c[] = {2, 3, 4};
 	int d[] = {2, 6, 8, 9, 12};
-	cout << "Hasil penggabungan a dan b : { " << endl;
+	cout << "Hasil penggabungan a dan b : \n"<<"{ ";
 	for(int i=0; i<2;) {
 		for(int j=0; j<3; j++) {
 			cout << "(" + a[i] + "," + b[j] + ")";
