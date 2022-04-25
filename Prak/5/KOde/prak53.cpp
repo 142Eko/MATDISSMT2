@@ -1,5 +1,4 @@
 #include <iostream> 
-#include <string> 
 using namespace std;
 int main(){
 	int jumlah;
@@ -17,7 +16,6 @@ int main(){
 	cout<<"x:";
 	cin>>g[i][0];
 	}	
-	//fungsi f(x) dan g(x)
 	cout<<"f(x)={";
 	for(int i=1;i<=jumlah;i++){ 
 	cout<<"("<<f[0][i]<<","<<f[i][0]<<"),";
@@ -34,5 +32,4 @@ int main(){
 			}
 		}
 	}
-
 }

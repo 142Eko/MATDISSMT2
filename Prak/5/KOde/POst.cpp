@@ -35,10 +35,10 @@ class fak{
 				break;
 				case 2:
 						cout<<"Masukkan angka yang ingin difaktorial (rekursif) =";cin>>x;
-						cout<<"Hasil secara iteratif dari "<<x<<" faktorial = "<<rekursif(x);
+						cout<<"Hasil secara rekursif dari "<<x<<" faktorial = "<<rekursif(x);
 				break;
 				default:
-						cout<<"Input tidak sesuai,mohon masukkan 1 | 2";
+						cout<<"Input tidak sesuai,mohon masukkan angka 1 atau 2";
 				break;
 			}
 		}
