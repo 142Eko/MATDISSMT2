@@ -1,7 +1,6 @@
 #include <iostream>
 #include <stdlib.h>
 using namespace std;
-
 int hitung1(int x, int y){
 	if(x>=y){
 		if(x%y);
